@@ -207,16 +207,24 @@ h3{
     margin: 10px 0;
 }
 .col:hover{
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.2) ;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.4) ;
 }
 .col2:hover{
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.2) ;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.4) ;
 }
 .col img{
     max-width: 80%;
     max-height: 80%;
     object-fit: contain;
     padding-top: 20px;
+}
+    
+.col2 img{
+    max-width: 55%;
+    max-height: 65%;
+    object-fit: contain;
+    padding-top: 20px;
+    border-radius: 120px 50px 120px 10px;
 }
 @media(max-width: 700px){
     .row{
